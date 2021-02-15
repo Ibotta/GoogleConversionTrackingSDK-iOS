@@ -1,5 +1,5 @@
 #!/bin/bash
 
-xcodebuild build -scheme GoogleConversionTrackingSDK -derivedDataPath derived_data -arch arm64 -sdk iphoneos BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+xcodebuild build -scheme GoogleConversionTrackingSDK -derivedDataPath derived_data -configuration Release BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 
-echo "Framwork location: derived_data/Build/Products/Debug-iphoneos/GoogleConversionTrackingSDK.framework"
+echo "Framwork location: derived_data/Build/Products/Release-iphoneos/GoogleConversionTrackingSDK.framework"

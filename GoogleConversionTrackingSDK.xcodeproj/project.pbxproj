@@ -160,6 +160,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = ACE0A7FB1DB5028800EDBD6B;
@@ -308,6 +309,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ynnckcmprnl.googleconversiontrackingsdk-ios.GoogleConversionTrackingSDK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -330,6 +333,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ynnckcmprnl.googleconversiontrackingsdk-ios.GoogleConversionTrackingSDK";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
